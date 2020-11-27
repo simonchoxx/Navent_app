@@ -13,8 +13,8 @@ export const DashboardRoutes = () => {
     <>
       <Router>
         <Switch>
-          <Route path="/home" component={InitialScreen} />
-          <Route path="/postings" component={PostingsScreen} />
+          <Route exact path="/" component={InitialScreen} />
+          <Route exact path="/postings" component={PostingsScreen} />
           <Redirect to="/postings" />
         </Switch>
       </Router>
