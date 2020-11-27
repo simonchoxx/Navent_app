@@ -5,7 +5,7 @@ import {
   Redirect,
   Switch,
   Route,
-  HashRouter as Router,
+  BrowserRouter as Router,
 } from "react-router-dom";
 
 export const DashboardRoutes = () => {
@@ -13,8 +13,8 @@ export const DashboardRoutes = () => {
     <>
       <Router>
         <Switch>
-          <Route exact path="/home" component={InitialScreen} />
-          <Route exact path="/postings" component={PostingsScreen} />
+          <Route path="/home" component={InitialScreen} />
+          <Route path="/postings" component={PostingsScreen} />
           <Redirect to="/postings" />
         </Switch>
       </Router>
