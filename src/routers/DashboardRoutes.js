@@ -15,7 +15,7 @@ export const DashboardRoutes = () => {
         <Switch>
           <Route exact path="/" component={InitialScreen} />
           <Route exact path="/postings" component={PostingsScreen} />
-          <Redirect to="/postings" />
+          <Redirect to="/" />
         </Switch>
       </Router>
     </>
