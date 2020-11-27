@@ -5,7 +5,7 @@ import {
   Redirect,
   Switch,
   Route,
-  BrowserRouter as Router,
+  HashRouter as Router,
 } from "react-router-dom";
 
 export const DashboardRoutes = () => {
