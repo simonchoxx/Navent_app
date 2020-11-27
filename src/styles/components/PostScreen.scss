@@ -1,0 +1,105 @@
+.post__descr {
+  font-size: 0.6rem;
+  padding-right: 1em;
+  min-height: 23vh;
+}
+
+.post__title {
+  font-size: 0.85rem;
+  color: $text-title;
+  font-weight: 700;
+}
+
+.post__location {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.card__post {
+  margin-bottom: 1em;
+  border-top-style: solid;
+  border-top-width: unset;
+}
+
+.post__price {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.post__expenses {
+  font-size: 0.8rem;
+}
+
+.btn__contactar {
+  color: #fff;
+  background-color: $btn-contactar;
+  border-color: $btn-contactar;
+}
+
+.btn__contactar:hover {
+  color: $btn-contactar;
+  background-color: #fff;
+  border-color: $btn-contactar;
+}
+
+.history__icon {
+  font-size: 1.1rem !important;
+  margin-right: 2px;
+}
+
+.history__text {
+  font-size: 0.8rem;
+}
+
+.border__violet {
+  border-top-color: $border-violet;
+}
+
+.border__green {
+  border-top-color: $border-green;
+}
+
+.btn__like {
+  top: 5px;
+  right: 5px;
+  background: transparent;
+  border: none;
+  text-decoration: none;
+}
+
+.btn__like:focus {
+  outline: 0;
+}
+
+.btn__like > svg {
+  color: $btn-like;
+}
+
+.btn__liked > svg {
+  color: $btn-liked;
+}
+
+.div__price {
+  border-right-style: solid;
+  border-right-color: $border-price;
+  border-right-width: 2px;
+}
+
+.post__plan {
+  top: 5px;
+  left: 5px;
+  font-size: 0.6rem;
+  color: #fff;
+}
+
+.post__navigate {
+  top: 90px;
+  right: 5px;
+  color: rgb(62, 55, 55);
+}
+
+.post__navigate:hover {
+  top: 90px;
+  right: 5px;
+  color: #fff;
+}

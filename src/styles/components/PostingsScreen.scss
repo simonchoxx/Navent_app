@@ -1,0 +1,30 @@
+.filter__title {
+  font-size: 1rem;
+}
+
+.filter__address {
+  font-size: 0.8rem;
+}
+
+.filter__type {
+  font-size: 0.9rem;
+}
+
+.lbl__radio {
+  font-size: 0.7rem;
+  padding-top: 0.3em;
+}
+
+input {
+  margin-top: 0.4rem;
+}
+
+.form__radios {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.2rem;
+}
+
+.btn__filter {
+  padding: 0.15rem 0.25rem;
+}
