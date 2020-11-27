@@ -18,7 +18,7 @@ export const InitialScreen = () => {
       </Link>
       <br />
       <Link
-        to={{ pathname: "https://github.com/simonchoxx?tab=repositories" }}
+        to={{ pathname: "https://github.com/simonchoxx/NaventApp" }}
         target="_blank"
       >
         <div className="text-center">
